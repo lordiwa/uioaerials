@@ -1,0 +1,61 @@
+:root {
+  /* ── BACKGROUNDS ── */
+  --color-bg-base:        #0d0d0d;
+  --color-bg-primary:     #121212;
+  --color-bg-secondary:   #1A1A1A;
+  --color-surface:        #1c1c1c;
+  --color-surface-raised: #212121;
+  --color-border:         rgba(255, 255, 255, 0.07);
+  --color-border-hover:   rgba(255, 255, 255, 0.15);
+
+  /* ── ACCENTS ── */
+  --color-accent-red:       #FF3B30;
+  --color-accent-red-dim:   rgba(255, 59, 48, 0.12);
+  --color-accent-red-glow:  rgba(255, 59, 48, 0.25);
+  --color-accent-cyan:      #00E5FF;
+  --color-accent-cyan-dim:  rgba(0, 229, 255, 0.10);
+  --color-accent-cyan-glow: rgba(0, 229, 255, 0.20);
+
+  /* ── TEXT ── */
+  --color-text-primary:   #E8E8E8;
+  --color-text-secondary: #AAAAAA;
+  --color-text-muted:     #666666;
+  --color-text-disabled:  #3a3a3a;
+
+  /* ── SEMANTIC ── */
+  --color-success: #34C759;
+  --color-warning: #FFD60A;
+  --color-error:   #FF3B30;
+
+  /* ── GRADIENTS ── */
+  --gradient-red-fade:  linear-gradient(135deg, rgba(255,59,48,0.15) 0%, transparent 60%);
+  --gradient-cyan-fade: linear-gradient(135deg, rgba(0,229,255,0.10) 0%, transparent 60%);
+  --gradient-hero:      linear-gradient(to bottom, transparent 50%, rgba(13,13,13,0.95) 100%);
+
+  /* ── SPACING SCALE ── */
+  --space-1:  4px;   --space-2:  8px;   --space-3:  12px;
+  --space-4:  16px;  --space-5:  24px;  --space-6:  32px;
+  --space-7:  48px;  --space-8:  64px;  --space-9:  96px;
+  --space-10: 128px;
+
+  /* ── BORDER RADIUS ── */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+
+  /* ── SHADOWS ── */
+  --shadow-red:  0 0 24px rgba(255, 59, 48, 0.3);
+  --shadow-cyan: 0 0 24px rgba(0, 229, 255, 0.2);
+  --shadow-dark: 0 8px 32px rgba(0, 0, 0, 0.6);
+
+  /* ── TRANSITIONS ── */
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.45, 0, 0.55, 1);
+  --duration-fast:   150ms;
+  --duration-normal: 300ms;
+  --duration-slow:   600ms;
+
+  /* ── Z-INDEX ── */
+  --z-base: 0; --z-raised: 10; --z-dropdown: 50;
+  --z-fixed: 100; --z-modal: 200; --z-toast: 300;
+}
